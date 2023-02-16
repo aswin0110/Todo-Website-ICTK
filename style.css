@@ -9,6 +9,7 @@ body{
 }
 
 
+
 .conatiner form{
     padding: 5% 0px 0px 35%;
 }
@@ -34,12 +35,7 @@ body{
     border-radius: 50%;
   }
 
-  h3{
-    text-align: center;
-    margin-top: 27% !important;
-    background: #9670e4 !important;
-    padding: 5px 0px 5px 0px !important;
-}
+
 
 .arrange-1 > p{
   background: coral;
@@ -48,11 +44,20 @@ span{
   color: white;
 }
 
+.navbar-toggler-icon{
+  background-color: white;
+}
+
+
+
+
+
 @media (min-width: 768px){
   .col-md-6 {
     flex: 0 0 auto;
     width: 90% !important;
 }
-
-
+.row{
+  padding: 0px 20% 0px 20% !important;
+}
 }
