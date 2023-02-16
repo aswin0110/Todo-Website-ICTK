@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  background-color: black;
+}
+
+
+.conatiner form{
+    padding: 5% 0px 0px 35%;
+}
+
+
+  input[type="checkbox"]:checked + label::before {
+    content: "\2714";
+    background-color: green;
+  }
+  
+  input[type="checkbox"] + label {
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] + label::before {
+    content: "\2718";
+    background-color: red;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 27% !important;
+    background: #9670e4 !important;
+    padding: 5px 0px 5px 0px !important;
+}
+
+.arrange-1 > p{
+  background: coral;
+}
+  
+@media (min-width: 768px){
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 90% !important;
+}
+
+
+}
