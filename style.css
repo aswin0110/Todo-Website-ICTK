@@ -44,7 +44,10 @@ body{
 .arrange-1 > p{
   background: coral;
 }
-  
+span{
+  color: white;
+}
+
 @media (min-width: 768px){
   .col-md-6 {
     flex: 0 0 auto;
